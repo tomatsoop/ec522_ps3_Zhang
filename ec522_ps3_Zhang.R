@@ -291,3 +291,5 @@ can_gas_fit |> gg_tsresiduals()
 can_gas_fit |>
   augment() |> 
   features(.innov, ljung_box, lag = 24)
+
+# 5.1a
